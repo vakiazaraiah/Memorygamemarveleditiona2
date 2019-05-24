@@ -12,11 +12,11 @@
     tools:context=".MainActivity">
 
     <include
-        android:layout="@layout/pictures"
-        android:layout_width="wrap_content"
-        android:layout_height="350dp"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"/>
+        layout="@layout/pictures"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
 
     <TextView
         android:id="@+id/txt_p1"

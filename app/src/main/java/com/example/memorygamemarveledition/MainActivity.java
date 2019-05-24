@@ -15,6 +15,8 @@ import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Collections;
 
+import static com.example.memorygamemarveledition.R.layout.activity_main;
+
 public class MainActivity extends AppCompatActivity {
 
     TextView txt_p1, txt_p2;
@@ -57,21 +59,22 @@ public class MainActivity extends AppCompatActivity {
         iv_17 = (ImageView) findViewById(R.id.iv_17);
         iv_18 = (ImageView) findViewById(R.id.iv_18);
         iv_19 = (ImageView) findViewById(R.id.iv_19);
-        iv_21 = (ImageView) findViewById(R.id.iv_20);
-        iv_22 = (ImageView) findViewById(R.id.iv_21);
+        iv_20 = (ImageView) findViewById(R.id.iv_20);
+        iv_21 = (ImageView) findViewById(R.id.iv_21);
+        iv_22 = (ImageView) findViewById(R.id.iv_22);
 
         iv_11.setTag("0");
-        iv_12.setTag("0");
-        iv_13.setTag("0");
-        iv_14.setTag("0");
-        iv_15.setTag("0");
-        iv_16.setTag("0");
-        iv_17.setTag("0");
-        iv_18.setTag("0");
-        iv_19.setTag("0");
-        iv_20.setTag("0");
-        iv_21.setTag("0");
-        iv_22.setTag("0");
+        iv_12.setTag("1");
+        iv_13.setTag("2");
+        iv_14.setTag("3");
+        iv_15.setTag("4");
+        iv_16.setTag("5");
+        iv_17.setTag("6");
+        iv_18.setTag("7");
+        iv_19.setTag("8");
+        iv_20.setTag("9");
+        iv_21.setTag("10");
+        iv_22.setTag("11");
 
         //Load the card images
 
